@@ -1,0 +1,241 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  max-width: 100%;
+}
+a {
+  text-decoration:none;
+  color:black;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(..//font/Poppins-Medium.ttf);
+}
+body{
+  background-color:#f2f2f2;
+}
+}
+.logo{
+  margin:10px;
+  margin-left:100px;
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  max-width:90%;
+}
+.navbar-I{
+  display:inline-block;
+  margin-left:40px;
+  display:flex;
+  gap:50px;
+}
+.Sell{
+  border-radius:10px;
+  padding:13px 13px;
+  background:#29b24e;
+  margin-left:20px;
+}
+.sell-a{
+  color:white;
+}
+.container{
+  width:1920px;
+  max-width:90%;
+  margin:auto;
+  padding: 0 16px;
+  display:flex;
+  }
+main{
+  margin-top:50px;
+}
+.Location{
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+.checkbox-list{
+  width:395px;
+  height:751px;
+  margin-top:40px;
+  border-radius:24px;
+  background-color:white;
+  padding:10px;
+}
+select{
+  width: 331px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(13, 156, 164, 0.21);
+  background: #F8F8F8;
+}
+.checkbox1{
+  display: flex;
+  flex-direction:column;
+  margin:10px;
+  margin-bottom:10px;
+  gap:15px;
+}
+.Property{
+  margin:10px;
+}
+.Price{
+  margin:10px;
+}
+.Main{
+  background-image:url("../Image/Skyscaper.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:1180px;
+  height:751px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+  border-radius:24px;
+  margin-inline:50px;
+}
+.Mainh1{
+  font-size:48px;
+  text-align:center;
+  background:none;
+  margin-top:60px;
+  margin-bottom:10px;
+}
+.Mainh2{
+  font-size:16px;
+  text-align:center;
+  background:none;
+  margin-bottom:40px;
+  opacity:80%;
+  font-weight:400;
+}
+.Search-input{
+  width: 324px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(248, 248, 248, 0.80);
+  box-shadow: 0px 4px 10px 0px rgba(124, 124, 124, 0.27);
+}
+/*sale-section*/
+.Sale-section{
+  margin-bottom:120px;
+}
+.Trending{
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left:120px;
+}
+.Sale-holder{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:20px;
+}
+.sale-h3{
+  background-color:#f8f8f8;
+}
+.article-link{
+  text-decoration:none;
+  color:black;
+  background-color:#f8f8f8;
+  transition: all 0.4s;
+}
+.article-link:hover{
+  color:#29b24e;
+}
+.article{
+  max-width:395px;
+  width:100%;
+  background-color:#f8f8f8;
+  padding:16px;
+  border-radius:28px;
+  position:relative;
+}
+.article:{
+  content:"VIP TOP+";
+  background-color:#29b24e;
+  color: white;
+  font-size:18px;
+  padding:6px 11px;
+  border-radius:15px;
+  position:absolute;
+  left:30px;
+  top:30px;
+}.
+.article-image {
+  padding-bottom: 16px;
+  background-color: #f8f8f8;
+}
+.article-location{
+  opacity:50%;
+  margin-bottom:8px;
+  background-color:#f8f8f8;
+}
+.sale-price{
+  text-align: end;
+  color: #29b24e;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  background-color: #f8f8f8;
+  width:100%;
+  display:block;
+  border-bottom:3px solid #cfead6;
+  margin-top:16px;
+  margin-bottom:24px;
+}
+.article-price-span {
+  color:black;
+  font-size:12px;
+  font-weight:normal;
+  background-color:#f8f8f8;
+}
+.article-flex{
+  display:flex;
+  justify-content:space-between;
+  background-color:#f8f8f8;
+}
+.article-span{
+  background-color:#f8f8f8;
+}
+
+/*footer*/
+.footer {
+  padding:10px;
+  border-radius:24px;
+  width:100%;
+  height:179px;
+  background-color:#29b24e;
+}
+.footer-I{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  background-color:#29b24e;
+  padding: 32px 140px;
+}
+.f-left,
+.f-right{
+  display:flex;
+  justify-content:space-between;
+  gap:48px;
+  background-color:#29b24e;
+}
+.f-center{
+  background-color:#29b24e;
+}
+.f-link{
+  color:white;
+  background-color:#29b24e;
+  text-decoration:none;
+}
+.f-link-bottom{
+  padding-top:32px;
+  text-align:center;
+  border-top:2px solid #d0d0d0;
+  color:white;
+}
